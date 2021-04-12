@@ -8,6 +8,7 @@ export async function post() {
       body: { data, error }
     };
   } catch (e) {
+    console.log({e});
     return {
       body: { e }
     };
@@ -22,6 +23,7 @@ export async function put() {
       body: { data, error }
     };
   } catch (e) {
+    console.log({e});
     return {
       body: { e }
     };
@@ -36,6 +38,7 @@ export async function get() {
       body: { data, error }
     };
   } catch (e) {
+    console.log({e});
     return {
       body: { e }
     };
